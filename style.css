@@ -104,16 +104,34 @@ th, td {
     text-align: center;
     padding: 15px 0;
 }
-.table-subtitle{
-
+.table-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #363940;
 }
 .table-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
 
 }
 .table-link {
-
+    color: #0a61f7;
 }
 
 .table-button {
+    border: 1px solid #95a1bb;
+    width: 140px;
+    padding: 8px 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #0a61f7;
 
 }
