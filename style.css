@@ -82,3 +82,38 @@ button {
     text-align: center;
     color: #fff;
 }
+.rates-section {
+    background: #f9fafc;
+    padding: 100px 0;
+
+}
+.title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.34375;
+    color: #363940;
+
+}
+.table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #95a1bb;
+    width: 240px;
+    text-align: center;
+    padding: 15px 0;
+}
+.table-subtitle{
+
+}
+.table-title{
+
+}
+.table-link {
+
+}
+
+.table-button {
+
+}
