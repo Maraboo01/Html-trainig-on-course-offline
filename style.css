@@ -19,7 +19,7 @@ ul {
 
 button {
     border: none;
-    background-color: none;
+    background-color: transparent;
 }
 
 .header {
@@ -67,7 +67,7 @@ button {
     font-size: 16px;
     line-height: 1.375;
     color: #95a1bb;
-    margin-bottom: 40px;
+
 }
 .button {
     border-radius: 4px;
@@ -85,12 +85,15 @@ button {
 .rates-section {
     background: #f9fafc;
     padding: 100px 0;
+}
 
+.rates-section.title {
+    margin-bottom: 20px;
 }
 .title{
     font-weight: 500;
     font-size: 32px;
-    line-height: 1.34375;
+    line-height: 43px;
     color: #363940;
 
 }
@@ -134,4 +137,38 @@ th, td {
     text-transform: uppercase;
     color: #0a61f7;
 
+}
+
+.table-subtitle.gray {
+ color:#95a1bb;
+}
+.table-button.active {
+    background-color: #0a61f7;
+    color: #fff;
+}
+.table-footer{
+    padding: 30px 0;
+}
+.create-account-section{
+    padding: 100 0;
+}
+.create-account-section.title{
+    margin-bottom: 50px;
+}
+.list{
+
+}
+.list-item {
+list-style-image: url(./assets/Mask.png);
+margin-bottom: 15px;
+margin-left: 30px;
+color: #363940;
+
+}
+.rates-section.text {
+    margin-bottom: 40px;
+}
+.create-account-section.text {
+    margin-bottom: 40px;
+    max-width: 500px;
 }
